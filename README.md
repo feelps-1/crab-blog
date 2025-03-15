@@ -1,27 +1,52 @@
-# AngularBlog
+# Blog DevCrab - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um projeto de frontend para um blog desenvolvido em Angular. O blog permite visualizar postagens em uma lista e acessar detalhes de cada postagem individualmente.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Listagem de Postagens**: Exibe uma lista de postagens com título, imagem de capa e descrição resumida.
+- **Detalhes da Postagem**: Ao clicar em uma postagem, o usuário é redirecionado para uma página com detalhes completos da postagem.
+- **Responsivo**: O layout é totalmente responsivo, funcionando bem em dispositivos móveis, tablets e desktops.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework principal para desenvolvimento do frontend.
+- **TypeScript**: Linguagem utilizada para desenvolver a aplicação.
+- **HTML/CSS**: Para estrutura e estilização das páginas.
 
-## Build
+## Pré-requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Antes de começar, certifique-se de ter instalado:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/) (versão 16 ou superior)
+- [Angular CLI](https://angular.io/cli) (versão 15 ou superior)
+- Um navegador moderno (Chrome, Firefox, Edge, etc.)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Como Rodar o Projeto
 
-## Running end-to-end tests
+Siga os passos abaixo para rodar o projeto localmente:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/blog-frontend-angular.git
+   cd blog-frontend-angular
+   ```
 
-## Further help
+2. **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+  
+3. **Inicie o servidor de desenvolvimento:**
+    ```bash
+    ng serve
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. **Acesse a aplicação:**
+    Abra o navegador e acesse:
+   
+    http://localhost:4200
+
+5. **Explore o blog:**
+  - A página inicial exibirá uma lista de postagens.
+  - Clique em uma postagem para ver os detalhes completos.
