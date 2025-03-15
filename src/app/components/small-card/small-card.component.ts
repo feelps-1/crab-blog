@@ -7,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SmallCardComponent implements OnInit {
 
+  isHovered: boolean = false;
+
   @Input()
   photoCover:string = ""
 
