@@ -1,0 +1,34 @@
+.container__footer {
+    width: 100%;
+    padding: 15px 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .container__footer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container__footer > ul > li {
+    margin: 0 10px; 
+    list-style: none;
+    color: black;
+  }
+  
+  .container__footer > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .container__footer > ul > li > a:hover {
+    color: #1e90ff; 
+  }
+  
