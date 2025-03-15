@@ -3,7 +3,7 @@ export const dataFake = [
     "id": "1",
     "title": "Novo Framework Revoluciona o Desenvolvimento Web",
     "description": "O TechFrame.js chega ao mercado prometendo revolucionar o desenvolvimento de aplicações web. Com uma abordagem modular e otimizada para desempenho, desenvolvedores relatam que a produtividade aumentou em até 40%. Especialistas apontam que essa nova tecnologia pode se tornar a principal alternativa ao React e Vue nos próximos anos.",
-    "photoCover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCubN2pBaP8ORzwHapKL4X2fUpuLO4Kwu2cg&s"
+    "photoCover": "https://www.brasilcode.com.br/wp-content/uploads/2022/07/banner_frameworks_web.png.webp"
   },
   {
     "id": "2",

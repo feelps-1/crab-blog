@@ -16,7 +16,7 @@
 }
 
 .container__menu-title > div > h1 {
-  font-size: 8vw; /* Fonte adaptável conforme a largura da tela */
+  font-size: 8vw; 
   font-family: 'Geist Mono', 'Open Sans', sans-serif;
   color: #2fbfef;
   background-color: white;
