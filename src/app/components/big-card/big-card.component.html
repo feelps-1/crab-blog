@@ -1,5 +1,9 @@
-<div class="container__big-card">
-
+<div class="container__big-card"
+     [ngClass]="{ 'hovered': isHovered }"
+     (mouseenter)="isHovered = true"
+     (mouseleave)="isHovered = false">
+     
+  <a [routerLink]="['content', Id]">
   <div class="big-card__photo">
     <img
       src="{{ photoCover }}"
@@ -15,10 +19,10 @@
 
   <div class="big-card__description">
     <p>
-      <a [routerLink]="['content', Id]">
+      
           {{ cardDescription }}
-      </a>
+
     </p>
   </div>
-
+  </a>
 </div>
